@@ -1,0 +1,135 @@
+<html>
+<head>
+<title> base control panel </title>
+
+</head>
+<p class="d"style="font-size:40px;bold;Trebuchet MS;color:DarkCyan
+">Base Control Interfce</p>
+<body style="background-image: url("paper.gif");;">
+<form action="base.php" method="post">
+
+<div class="right">
+<input type="submit" value="RIGHT" id="RIGHT"  name="RIGHT"
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("RIGHT");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+<div class="left">
+<input type="submit" value="LEFT" id="LEFT"  name="LEFT"
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("LEFT");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+<div class="forward">
+<input type="submit" value="FORWARD" id="FORWARD"  name="FORWARD" 
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("FORWARD");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+<div class="BACKWARD">
+<input type="submit" value="BACKWARD" id="BACKWARD"  name="BACKWARD"
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("BACKWARD");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+
+
+<div class="STOP">
+<input type="submit" value="STOP" id="STOP"  name="STOP"
+style=" border: 5px solid white; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:red;margin-right:40px;">
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("STOP");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>robot control panel </title>
+
+</head>
+<body style="background-color:lightgrey;">
+<form action="robot.php" method="post">
+ 
+
+<h3> Robot control panel</h3>
+<div class="motor1">
+<p> motor 6</p>
+<input type="range" min="0" max"180"  value="50" id="slider1"  name="motor1">
+
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("slider1");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+<div class="motor2">
+<p> motor 2</p>
+<input type="range" min="0" max"180"  value="50" id="slider2"   name="motor2">
+
+<div id="selector2">
+<div class="selectbutton2"> </div>
+<div id="selectvalue2"></div>
+</div>
+<div id="progressBar2"></div>
+</div>
+<script>
+var slider=document.getElementById("slider2");
+var selector=document.getElementById("selector2");
+var selectvalue= document.getElementById("selectvalue2");
+var progressBar= document.getElementById("progressBar2");
+
+ slider2.oninput=function(){
+selectvalue2.innerHTML=this.value + "%";
+selector2.style.left=this.value + "%";
+progressBar2.style.width=this.value + "%";
+}
+</script>
+
+<div class="motor3">
+<p>اmotor 3</p>
+<input type="range" min="0" max"180"  value="50" id="slider3" name="motor3" >
+
+<div id="selector3">
+<div class="selectbutton3"> </div>
+<div id="selectvalue3"></div>
+</div>
+<div id="progressBar3"></div>
+</div>
+<script>
+var slider=document.getElementById("slider3");
+var selector=document.getElementById("selector3");
+var selectvalue= document.getElementById("selectvalue3");
+var progressBar= document.getElementById("progressBar3");
+
+ slider3.oninput=function(){
+selectvalue3.innerHTML=this.value + "%";
+selector3.style.left=this.value + "%";
+progressBar3.style.width=this.value + "%";
+}
+</script>
+<div class="motor4">
+<p> motor 4 </p>
+<input type="range" min="0" max"180"  value="50" id="slider4" name="motor4">
+
+<div id="selector4">
+<div class="selectbutton4"> </div>
+<div id="selectvalue4"></div>
+</div>
+<div id="progressBar4"></div>
+</div>
+<script>
+var slider=document.getElementById("slider4");
+var selector=document.getElementById("selector4");
+var selectvalue= document.getElementById("selectvalue4");
+var progressBar= document.getElementById("progressBar4");
+
+ slider4.oninput=function(){
+selectvalue4.innerHTML=this.value + "%";
+selector4.style.left=this.value + "%";
+progressBar4.style.width=this.value + "%";
+}
+</script>
+
+<div class="motor5">
+<p> motor 5 </p>
+<input type="range" min="0" max"180"  value="50" id="slider5"  name="motor5">
+
+<div id="selector5">
+<div class="selectbutton5"> </div>
+<div id="selectvalue5"></div>
+</div>
+<div id="progressBar5"></div>
+</div>
+<script>
+var slider=document.getElementById("slider5");
+var selector=document.getElementById("selector5");
+var selectvalue= document.getElementById("selectvalue5");
+var progressBar= document.getElementById("progressBar5");
+
+ slider5.oninput=function(){
+selectvalue5.innerHTML=this.value + "%";
+selector5.style.left=this.value + "%";
+progressBar5.style.width=this.value + "%";
+}
+</script>
+<div class="motor6">
+<p> motor 6</p>
+<input type="range" min="0" max"180"  value="50" id="slider6" name="motor6">
+
+<div id="selector6">
+<div class="selectbutton6"> </div>
+<div id="selectvalue6"></div>
+</div>
+<div id="progressBar6"></div>
+</div>
+
+<script>
+var slider=document.getElementById("slider6");
+var selector=document.getElementById("selector6");
+var selectvalue= document.getElementById("selectvalue6");
+var progressBar= document.getElementById("progressBar6");
+
+ slider6.oninput=function(){
+selectvalue6.innerHTML=this.value + "%";
+selector6.style.left=this.value + "%";
+progressBar6.style.width=this.value + "%";
+}
+</script>
+<button type="Save" value="save"> Save </button>
+<button type="Run"  value="Run"> ON </button>
+
+<form action="base.php" method="post">
+
+<div class="right">
+<input type="submit" value="RIGHT" id="RIGHT"  name="RIGHT"
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("RIGHT");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+<div class="left">
+<input type="submit" value="LEFT" id="LEFT"  name="LEFT"
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("LEFT");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+<div class="forward">
+<input type="submit" value="FORWARD" id="FORWARD"  name="FORWARD" 
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("FORWARD");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+<div class="BACKWARD">
+<input type="submit" value="BACKWARD" id="BACKWARD"  name="BACKWARD"
+style=" border: 5px solid PeachPuff; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:IndianRed;margin-right:40px;">
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("BACKWARD");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+
+
+<div class="STOP">
+<input type="submit" value="STOP" id="STOP"  name="STOP"
+style=" border: 5px solid white; 55px; height:55px;bold;font-size:24px;color:white;
+background-color:red;margin-right:40px;">
+<div id="selector1">
+<div class="selectbutton1"> </div>
+<div id="selectvalue1"></div>
+</div>
+<div id="progressBar1"></div>
+</div>
+<script>
+var slider=document.getElementById("STOP");
+var selector=document.getElementById("selector1");
+var selectvalue= document.getElementById("selectvalue1");
+var progressBar= document.getElementById("progressBar1");
+
+ slider1.oninput=function(){
+selectvalue1.innerHTML=this.value + "%";
+selector1.style.left=this.value + "%";
+progressBar1.style.width=this.value + "%";
+}
+</script>
+
+</form>
+
+</body>
+</html>
